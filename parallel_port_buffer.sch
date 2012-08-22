@@ -1,0 +1,62 @@
+v 20110115 2
+C 40000 40000 0 0 0 title-B.sym
+C 45200 44800 1 0 0 74244-1.sym
+{
+T 45500 47950 5 10 0 0 0 0 1
+device=74244
+T 46900 47800 5 10 1 1 0 6 1
+refdes=U?
+T 45500 48150 5 10 0 0 0 0 1
+footprint=DIP20
+}
+C 42400 48600 1 0 0 input-1.sym
+{
+T 42400 48900 5 10 0 0 0 0 1
+device=INPUT
+T 41800 48600 5 10 1 1 0 0 1
+refdes=X_Dir
+}
+C 42400 48200 1 0 0 input-1.sym
+{
+T 42400 48500 5 10 0 0 0 0 1
+device=INPUT
+T 41800 48200 5 10 1 1 0 0 1
+refdes=X_Step
+}
+C 42400 47400 1 0 0 input-1.sym
+{
+T 42400 47700 5 10 0 0 0 0 1
+device=INPUT
+T 41800 47400 5 10 1 1 0 0 1
+refdes=Y_Step
+}
+C 42400 47800 1 0 0 input-1.sym
+{
+T 42400 48100 5 10 0 0 0 0 1
+device=INPUT
+T 41800 47800 5 10 1 1 0 0 1
+refdes=Y_Dir
+}
+C 42400 46600 1 0 0 input-1.sym
+{
+T 42400 46900 5 10 0 0 0 0 1
+device=INPUT
+T 41800 46600 5 10 1 1 0 0 1
+refdes=Z_Step
+}
+C 42400 47000 1 0 0 input-1.sym
+{
+T 42400 47300 5 10 0 0 0 0 1
+device=INPUT
+T 41800 47000 5 10 1 1 0 0 1
+refdes=Z_Dir
+}
+C 50300 44700 1 0 0 74244-1.sym
+{
+T 50600 47850 5 10 0 0 0 0 1
+device=74244
+T 52000 47700 5 10 1 1 0 6 1
+refdes=U?
+T 50600 48050 5 10 0 0 0 0 1
+footprint=DIP20
+}

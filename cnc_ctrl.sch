@@ -1,0 +1,251 @@
+v 20110115 2
+C 40000 40000 0 0 0 title-B.sym
+C 42200 42200 1 0 0 dsub_DB25m.sym
+{
+T 42700 48500 5 10 1 1 0 0 1
+refdes=X?
+T 42200 49700 5 10 0 0 0 0 1
+footprint=DB25M.fp
+T 42700 48300 5 10 1 1 0 0 1
+device=DB25-m
+T 42600 41800 5 10 1 1 0 0 1
+description=Motor Ctrl In
+}
+C 50700 46000 1 0 0 dsub_DA15m.sym
+{
+T 51150 50325 5 10 1 1 0 0 1
+refdes=X?
+T 50800 51500 5 10 0 0 0 0 1
+footprint=DB15M.fp
+T 51150 50125 5 10 1 1 0 0 1
+device=DA15-m
+T 51100 45800 5 10 1 1 0 0 1
+comment=User Ctrl In
+}
+C 52600 41600 1 0 0 dsub_DA15m.sym
+{
+T 53050 45925 5 10 1 1 0 0 1
+refdes=X?
+T 52700 47100 5 10 0 0 0 0 1
+footprint=DB15M.fp
+T 53050 45725 5 10 1 1 0 0 1
+device=DA15-m
+}
+C 44300 47500 1 0 0 output-1.sym
+{
+T 44400 47800 5 10 0 0 0 0 1
+device=OUTPUT
+T 45200 47500 5 10 1 1 0 0 1
+netname=EStop_Out
+}
+C 46700 42100 1 0 0 dsub_DB25m.sym
+{
+T 47200 48400 5 10 1 1 0 0 1
+refdes=X?
+T 46700 49600 5 10 0 0 0 0 1
+footprint=DB25M.fp
+T 47200 48200 5 10 1 1 0 0 1
+device=DB25-m
+T 47100 41800 5 10 1 1 0 0 1
+value=Motor Ctrl Out
+}
+C 44300 47100 1 0 0 output-1.sym
+{
+T 44400 47400 5 10 0 0 0 0 1
+device=OUTPUT
+T 45200 47100 5 10 1 1 0 0 1
+netname=X_Step
+T 44300 47100 5 10 0 0 0 0 1
+source=motor_drivers.sch
+}
+C 44300 46700 1 0 0 output-1.sym
+{
+T 44400 47000 5 10 0 0 0 0 1
+device=OUTPUT
+T 45200 46700 5 10 1 1 0 0 1
+netname=X_Dir
+T 44300 46700 5 10 0 0 0 0 1
+source=motor_drivers.sch
+}
+C 44300 46300 1 0 0 output-1.sym
+{
+T 44400 46600 5 10 0 0 0 0 1
+device=OUTPUT
+T 45200 46300 5 10 1 1 0 0 1
+netname=Y_Step
+T 44300 46300 5 10 0 0 0 0 1
+source=motor_drivers.sch
+}
+C 44300 45900 1 0 0 output-1.sym
+{
+T 44400 46200 5 10 0 0 0 0 1
+device=OUTPUT
+T 45200 45900 5 10 1 1 0 0 1
+netname=Y_Dir
+T 44300 45900 5 10 0 0 0 0 1
+source=motor_drivers.sch
+}
+C 44300 45500 1 0 0 output-1.sym
+{
+T 44400 45800 5 10 0 0 0 0 1
+device=OUTPUT
+T 45200 45500 5 10 1 1 0 0 1
+netname=Z_Step
+T 44300 45500 5 10 0 0 0 0 1
+source=motor_drivers.sch
+}
+C 44300 45100 1 0 0 output-1.sym
+{
+T 44400 45400 5 10 0 0 0 0 1
+device=OUTPUT
+T 45200 45100 5 10 1 1 0 0 1
+netname=Z_Dir
+T 44300 45100 5 10 0 0 0 0 1
+source=motor_drivers.sch
+}
+C 44300 44700 1 0 0 output-1.sym
+{
+T 44400 45000 5 10 0 0 0 0 1
+device=OUTPUT
+T 45200 44700 5 10 1 1 0 0 1
+netname=A_Step
+T 44300 44700 5 10 0 0 0 0 1
+source=motor_drivers.sch
+}
+C 44300 44300 1 0 0 output-1.sym
+{
+T 44400 44600 5 10 0 0 0 0 1
+device=OUTPUT
+T 45200 44300 5 10 1 1 0 0 1
+netname=A_Dir
+T 44300 44300 5 10 0 0 0 0 1
+source=motor_drivers.sch
+}
+C 42000 47500 1 180 0 output-1.sym
+{
+T 41900 47200 5 10 0 0 180 0 1
+device=OUTPUT
+T 41100 47500 5 10 1 1 180 0 1
+netname=Spin_CW
+}
+C 42000 46700 1 180 0 output-1.sym
+{
+T 41900 46400 5 10 0 0 180 0 1
+device=OUTPUT
+T 41100 46700 5 10 1 1 180 0 1
+netname=Spin_PWM
+}
+C 42000 46300 1 180 0 output-1.sym
+{
+T 41900 46000 5 10 0 0 180 0 1
+device=OUTPUT
+T 41100 46300 5 10 1 1 180 0 1
+netname=Amp_Ena
+}
+C 44300 43900 1 0 0 output-1.sym
+{
+T 44400 44200 5 10 0 0 0 0 1
+device=OUTPUT
+T 45200 43900 5 10 1 1 0 0 1
+netname=X_Lim
+}
+C 44300 43500 1 0 0 output-1.sym
+{
+T 44400 43800 5 10 0 0 0 0 1
+device=OUTPUT
+T 45200 43500 5 10 1 1 0 0 1
+netname=Y_Lim
+}
+C 44300 43100 1 0 0 output-1.sym
+{
+T 44400 43400 5 10 0 0 0 0 1
+device=OUTPUT
+T 45200 43100 5 10 1 1 0 0 1
+netname=Z_Lim
+}
+C 44300 42700 1 0 0 output-1.sym
+{
+T 44400 43000 5 10 0 0 0 0 1
+device=OUTPUT
+T 45200 42700 5 10 1 1 0 0 1
+netname=A_Lim
+}
+C 42000 47100 1 180 0 output-1.sym
+{
+T 41900 46800 5 10 0 0 180 0 1
+device=OUTPUT
+T 41100 47100 5 10 1 1 180 0 1
+netname=Probe_In
+}
+N 42000 47400 42300 47400 4
+N 42000 47000 42300 47000 4
+N 42000 46600 42300 46600 4
+N 42000 46200 42300 46200 4
+N 44300 47600 43900 47600 4
+N 43900 47200 44300 47200 4
+N 44300 46800 43900 46800 4
+N 43900 46400 44300 46400 4
+N 44300 46000 43900 46000 4
+N 43900 45600 44300 45600 4
+N 44300 45200 43900 45200 4
+N 43900 44800 44300 44800 4
+N 44300 44400 43900 44400 4
+N 43900 44000 44300 44000 4
+N 44300 43600 43900 43600 4
+N 43900 43200 44300 43200 4
+N 44300 42800 43900 42800 4
+C 54600 45000 1 0 0 output-1.sym
+{
+T 54700 45300 5 10 0 0 0 0 1
+device=OUTPUT
+T 55500 45000 5 10 1 1 0 0 1
+netname=Vmot
+}
+C 54600 44600 1 0 0 output-1.sym
+{
+T 54700 44900 5 10 0 0 0 0 1
+device=OUTPUT
+T 55500 44600 5 10 1 1 0 0 1
+netname=Vdd
+}
+C 54600 44200 1 0 0 output-1.sym
+{
+T 54700 44500 5 10 0 0 0 0 1
+device=OUTPUT
+T 55500 44200 5 10 1 1 0 0 1
+netname=GND
+}
+C 52600 49400 1 0 0 output-1.sym
+{
+T 52700 49700 5 10 0 0 0 0 1
+device=OUTPUT
+T 53500 49400 5 10 1 1 0 0 1
+refdes=Enable
+T 52600 49400 5 10 0 0 0 0 1
+source=panel_io.sch
+}
+C 48600 47400 1 0 0 output-1.sym
+{
+T 48700 47700 5 10 0 0 0 0 1
+device=OUTPUT
+T 49500 47400 5 10 1 1 0 0 1
+refdes=Enable
+}
+C 52600 49000 1 0 0 output-1.sym
+{
+T 52700 49300 5 10 0 0 0 0 1
+device=OUTPUT
+T 53500 49000 5 10 1 1 0 0 1
+refdes=Power
+T 52600 49000 5 10 0 0 0 0 1
+source=panel_io.sch
+}
+C 52600 48600 1 0 0 output-1.sym
+{
+T 52700 48900 5 10 0 0 0 0 1
+device=OUTPUT
+T 53500 48600 5 10 1 1 0 0 1
+refdes=Stop
+T 52600 48600 5 10 0 0 0 0 1
+source=panel_io.sch
+}
